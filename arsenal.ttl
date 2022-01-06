@@ -5,7 +5,6 @@
 :Arsenal rdf:type :ProfessionalFootballClub .
 :ProfessionalFootballClub rdfs:subClassOf :FootballClub .
 :Arsenal :basedIn :Islington .
-:London :locatedIn :England .
 :Arsenal :playsIn :PL .
 :PL :hasName :PremierLeague .
 :PL rdf:type :EnglishFootball .
