@@ -1,0 +1,70 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://myanswer.bbk/> .
+:Arsenal rdf:type :ProfessionalFootballClub .
+:ProfessionalFootballClub rdfs:subClassOf :FootballClub .
+:Arsenal :basedIn :Islington .
+:Islington :locatedIn :London .
+:London :locatedIn :England .
+:Arsenal :playsIn :PL .
+:PL :hasName :PremierLeague .
+:PL rdf:type :EnglishFootball .
+:Arsenal :leagueTitleWon "13"^^xsd:integer .
+:Arsenal :FACupWon "14"^^xsd:integer .
+:DialSquare rdf:type :FootballClub .
+:DialSquare :formedBy :DD .
+:DD :hasName "David Danskin" .
+:DD :rdf:type :Person .
+:DD :from :Scotland .
+:DialSquare :formedYear "1886"^^xsd:gYear .
+:DialSquare :formedIn :Woolwich .
+:DialSquare :renamedTo :Arsenal .
+:DialSquare :renamedYear "1987"^^xsd:gYear .
+:Arsenal :deepestRival :TottenhamHotspur .
+:Arsenal :biggestRival :ManchesterUnited .
+:ManchesterUnited :rivalSince "2003"^^xsd:gYear .
+:ManchesterUnited :rivalListedBy :OnlinePoll .
+:OnlinePoll :doneBy :FootballFansCensus .
+:Arsenal :hadPlayer :TH .
+:TH :hasName "Thierry Henry" .
+:TH rdf:type :Player .
+:Player rdfs:subClassOf :Person .
+:TH rdf:type :GreatestStriker .
+:TH :position :Striker .
+:TH :playedYear "1999"^^xsd:gYear .
+:TH :playedYear "2000"^^xsd:gYear .
+:TH :playedYear "2001"^^xsd:gYear .
+:TH :playedYear "2002"^^xsd:gYear .
+:TH :playedYear "2003"^^xsd:gYear .
+:TH :playedYear "2004"^^xsd:gYear .
+:TH :playedYear "2005"^^xsd:gYear .
+:TH :playedYear "2006"^^xsd:gYear .
+:TH :playedYear "2007"^^xsd:gYear .
+:Arsenal :hadPlayer :GK .
+:GK :hasName "Pepe" .
+:GK :rdf:type :Person .
+:GK :position :GoalKeeper .
+:GK :playedYear "2000"^^xsd:gYear .
+:GK :playedYear "2001"^^xsd:gYear .
+:GK :playedYear "2002"^^xsd:gYear .
+:TH :goalsScored "10"^^xsd:integer .
+:GK :goalsScored "1"^^xsd:integer .
+:Arsenal :hadPlayer :JS .
+:JS :hasName "John Smith" .
+:JS :goalsScored "7"^^xsd:integer .
+:Arsenal :hadPlayer :SG .
+:SG :hasName "Sam Gill" .
+:SG :goalsScored "8"^^xsd:integer .
+:Arsenal :hadPlayer :RS .
+:RS :hasName "Roger Stones" .
+:RS :goalsScored "3"^^xsd:integer .
+:Arsenal :hadPlayer :BP .
+:BP :hasName "Barry Pop" .
+:BP :goalsScored "5"^^xsd:integer .
+:Arsenal :hadPlayer :EO .
+:EO :hasName "Enzo Olaf" .
+:EO :goalsScored "8"^^xsd:integer .
+:Arsenal :hadPlayer :GT .
+:GT :hasName "Giulian Tess" .
+:GT :goalsScored "6"^^xsd:integer .
