@@ -41,30 +41,3 @@
 :TH :playedYear "2005"^^xsd:gYear .
 :TH :playedYear "2006"^^xsd:gYear .
 :TH :playedYear "2007"^^xsd:gYear .
-:Arsenal :hadPlayer :GK .
-:GK :hasName "Pepe" .
-:GK :rdf:type :Person .
-:GK :position :GoalKeeper .
-:GK :playedYear "2000"^^xsd:gYear .
-:GK :playedYear "2001"^^xsd:gYear .
-:GK :playedYear "2002"^^xsd:gYear .
-:TH :goalsScored "10"^^xsd:integer .
-:GK :goalsScored "1"^^xsd:integer .
-:Arsenal :hadPlayer :JS .
-:JS :hasName "John Smith" .
-:JS :goalsScored "7"^^xsd:integer .
-:Arsenal :hadPlayer :SG .
-:SG :hasName "Sam Gill" .
-:SG :goalsScored "8"^^xsd:integer .
-:Arsenal :hadPlayer :RS .
-:RS :hasName "Roger Stones" .
-:RS :goalsScored "3"^^xsd:integer .
-:Arsenal :hadPlayer :BP .
-:BP :hasName "Barry Pop" .
-:BP :goalsScored "5"^^xsd:integer .
-:Arsenal :hadPlayer :EO .
-:EO :hasName "Enzo Olaf" .
-:EO :goalsScored "8"^^xsd:integer .
-:Arsenal :hadPlayer :GT .
-:GT :hasName "Giulian Tess" .
-:GT :goalsScored "6"^^xsd:integer .
